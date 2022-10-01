@@ -1,0 +1,581 @@
+.Navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #282828E6;
+    padding: 20px;
+    color: white;
+    /*  */
+    opacity: 0.99999999;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+   z-index: 800;
+}
+
+.NavChiled2 {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    /*  */
+    width: 500px;
+    font-family: lato, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin-right: 40px;
+}
+
+.NavHome {
+    /*  */
+    width: 100px;
+    height: 50px;
+}
+
+.NavHome:hover {
+    text-decoration: underline;
+}
+
+.btnCreataccount {
+    line-height: 20px;
+    border-radius: 20px;
+    background-image: linear-gradient(to right, #5a3bdb, #75c6ec);
+    width: 150px;
+    height: 40px;
+    display: inline-block;
+    color: #fff;
+    padding: 0px 10px;
+    text-align: center;
+    transition: all 0.2s ease-in-out;
+    margin-left: 25px;
+    font-family: lato, Arial, Helvetica, sans-serif;
+}
+
+.twiiklogo>img {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.Home_div2 {
+    
+    width: 100%;
+
+    height: fit-content;
+
+}
+
+.Home_div2para {
+    
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 1000px;
+    position: relative;
+    top: 200px;
+    left: 220px;
+    line-height: 45px;
+
+
+}
+
+.starterimg {
+    
+    width: 100%;
+    height: 420px;
+    position: fixed;
+    top: 70px;
+}
+
+.starterimg>img {
+    width: 100%;
+    height: 100%;
+}
+
+#creataccountbtn {
+    margin-top: 50px;
+    margin-left: 0px;
+}
+
+.whatistwiik {
+    
+    width: 100%;
+    height: 500px;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    margin-top: 210px;
+    background-color: white;
+    position: absolute;
+    top: 280px;
+}
+
+.whatistwiikdiv1 {
+    
+    width: 500px;
+    height: auto;
+    position: absolute;
+    top: 160px;
+    left: 200px;
+
+    text-align: left;
+
+}
+
+.whatis_twiik_heading {
+    text-align: left;
+    font-family: "lato-bold";
+}
+
+.blueline {
+    background-color: blue;
+    height: 4px;
+    width: 100px;
+}
+
+.whatistwiikdiv2 {
+    
+    width: 350px;
+    height: 500px;
+    position: absolute;
+    top: -70px;
+    right: 200px;
+}
+
+.whatistwiikdiv2>img {
+    width: 100%;
+    height: 100%;
+}
+
+.keep_track_habits {
+    
+    width: 100%;
+    height: auto;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    top: 1000px;
+    margin-top: -15px;
+    background-color: white;
+    padding-bottom: 50px;
+}
+
+.keep_track_habitsimg {
+    
+    /* position: absolute; */
+    top: 1500px;
+    width: 380px;
+    height: 500px;
+}
+
+.keep_track_habitsimg>img {
+    width: 100%;
+    height: 100%;
+}
+
+.keep_track_habitspara {
+    
+    width: 300px;
+    height: fit-content;
+
+}
+
+.keep_track_habits h2 {
+    font-family: lato-bold;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: left;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li:before {
+    content: '✓';
+    color: blue;
+    font-size: 28px;
+    font-weight: bolder;
+}
+
+.keep_track_habits ul {
+    color: black;
+    text-align: left;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.Footer {
+
+
+    background: #121451;
+    height: 250px;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+}
+
+.Footerdiv1 {
+    
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Footer_div1_Chiled1 {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+.Footer_div1_Chiled1>Text:hover {
+    text-decoration: underline;
+}
+
+.Footer_div1_Chiled2 {
+    
+    width: 350px;
+    height: 50px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(1);
+    align-items: center;
+    gap: 20px;
+
+}
+
+.Footer_div1_Chiled2>div {
+    border: 3px solid gray;
+    border-radius: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3px 3px;
+}
+
+.Footer_div1_Chiled2>div:hover {
+    border: 3px solid white;
+
+}
+
+.Footer_div1_Chiled2>div>img {
+    width: 45px;
+    height: 80%;
+}
+
+.Twiiklogofooter {
+    width: 170px;
+    height: 50px;
+}
+
+/*      Get App page      Get App page      Get App page      */
+/*      Get App page      Get App page      Get App page      */
+/*      Get App page      Get App page      Get App page      */
+.Getapp {
+    
+
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0px;
+
+}
+
+.Getapp_div1 {
+    
+
+    width: 100%;
+    background: #383838;
+    height: 300px;
+    z-index: 1;
+}
+
+.Getapp_div2 {
+    
+    display: flex;
+
+    justify-content: space-around;
+
+    width: 100%;
+    height: 800px;
+    align-content: center;
+}
+
+.Getapp_div2_div1 {
+
+    width: 320px;
+    height: 600px;
+    position: relative;
+    top: -120px;
+    left: 80px;
+}
+
+.Getapp_div2_div1>img {
+    width: 100%;
+    height: 100%;
+}
+
+.Getapp_div2_div2 {
+    
+    width: 350px;
+    height: 300px;
+    color: black;
+    text-align: left;
+    margin-top: 100px;
+    position: relative;
+    left: -150px;
+
+}
+
+.Getapp_div2_div2_text {
+    font-family: lato, Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.Getapp_div2_div2_para {
+    font-family: lato, Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.appstore {
+    display: flex;
+    margin-top: 60px;
+}
+
+.appstore img {
+    height: 50px;
+}
+
+.openModal {
+    cursor: pointer;
+}
+
+#HomeFooter {
+    position: absolute;
+    top: 1530.49px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    display: block;
+}
+
+#or {
+    margin-left: 140px;
+    color: #000000;
+}
+
+.facebooklogin {
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+
+}
+
+.facebookloginimg {
+    width: 30px;
+    height: 30px;
+    background: white;
+
+
+}
+
+#forgotpassword {
+    color: #3bc6db;
+    font-size: 13px;
+    margin-top: 10px;
+    /* text-align: justify; */
+    margin-left: 25px;
+}
+
+#forgotpassword:hover {
+    text-decoration: underline;
+
+}
+
+.btnGetapp_create_contact_heading {
+    margin: auto;
+    height: 250px;
+    /* border: 1px solid red ; */
+    position: relative;
+    bottom: 250px;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.btnGetapp_create_contact_heading>h1 {
+    font-family: lato, Arial, Helvetica, sans-serif;
+    font-size: 26px;
+    text-decoration: none solid rgb(255, 255, 255);
+    text-align: center;
+    word-spacing: 0px;
+    color: white;
+    margin-bottom: 40px;
+    margin-left: 20px;
+
+
+}
+
+.btnGetapp_create_contact {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+.btngetapp_in_creat_contact {
+    height: 40px;
+    width: 147.425px;
+    border: 2px solid #75C6EC;
+    padding: 0 25px 0 25px;
+    font-family: lato, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 46px;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+/*         Landing page Navbar      Landing page Navbar   Landing page Navbar  */
+/*         Landing page Navbar      Landing page Navbar   Landing page Navbar  */
+/*         Landing page Navbar      Landing page Navbar   Landing page Navbar  */
+/*         Landing page Navbar      Landing page Navbar   Landing page Navbar  */
+.Navbarmain {
+    width: 100%;
+    height: auto;
+
+}
+
+.Navbarmain_top {
+    height: 60px;
+    width: 100%;
+    /* margin: 0 270px 0 270px; */
+    background-color: #121451;
+    background-position: 0% 0%;
+    color: white;
+    font-family: lato, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    text-decoration: none solid rgb(0, 0, 0);
+    word-spacing: 0px;
+}
+
+.Navbarmain_top_div1 {
+    margin: auto;
+    width: 980px;
+    height: 100%;
+    
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#twiiklogomain {
+
+    
+    width: 100px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#twiiklogomain>img {
+    width: 100%;
+    height: 50%;
+}
+
+.Navbarmain_top_div1_div2 {
+    
+    width: 416.35px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: lato, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 50px;
+    word-spacing: 0px;
+   
+}
+.others{
+   color: white;
+   /* text-decoration:  */
+   text-decoration: underline;
+   text-decoration-thickness: 5px;
+   text-underline-offset: 16px;
+
+}
+.default{
+    color: #BBBBBB;
+    
+
+}
+
+.Navbarmain_top_div1_div3 {
+    border: 1px solid gray;
+    width: 330px;
+
+}
+
+.Navbarmain_bottom_div {
+    height: 40px;
+    width: 100%;
+    background-color: rgb(238, 238, 238);
+}
+.main_div_creat_contact{
+    margin: auto;
+    
+height: 1000px;
+width: 980px;
+margin-top: 100px;
+
+}
+.main_div_creat_contact_div1{
+    margin: auto;
+    
+height: 150px;
+width: 930px;
+border-radius: 10px;
+margin-top: 80px;
+}
+.main_div_creat_contact_div1_heading{
+    margin: auto;
+    
+height: 50px;
+width: 930px;
+}
+.main_div_creat_contact_div1_para{
+    margin: auto;
+    
+height: 50px;
+width: 930px;
+}
+.main_div_creat_contact_div1_inpbtndiv{
+    
+   width: 930px;
+   height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+}
+.main_div_creat_contact_div1_inpbtndiv>input{
+    height: 100%;
+    width: 300px;
+}
